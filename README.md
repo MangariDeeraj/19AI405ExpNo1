@@ -42,6 +42,7 @@
 <p>Measure the performance parameters: For each treatment performance incremented, for each movement performance decremented</p>
 
 ## PROGRAM
+```
 import random
 
 class MedicineAgent:
@@ -74,9 +75,7 @@ class MedicineAgent:
 
         print(f"Moving to {self.location}. Performance: {self.performance}")
         print("-" * 30)
-
-
-def main():
+    def main():
     environment = {
         "Room A": {"temperature": random.uniform(97.0, 102.0)},
         "Room B": {"temperature": random.uniform(97.0, 102.0)}
@@ -103,7 +102,7 @@ def main():
 
 if __name__ == "__main__":
     main()
-
+```
 ## OUTPUT
 <img width="842" height="516" alt="image" src="https://github.com/user-attachments/assets/81de4976-94d4-45a2-9744-87006181efee" />
 
